@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="If-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title> Document
+        </title> 
+        <script src="../Visualcode/recursos/libreria/font awesome/all.js" ></script>
+        <style>
+            #divMenu {background-color: palevioletred ;}
+            #divMenu ul{margin: 1px;}
+            #divMenu li {display: inline;
+                     margin: 5px;
+                     list-style: none;}
+        
+        #divMenu li a {text-decoration: none;color:rgb(73, 16, 51);}
+        #divMenu li a:hover {color:rgb(246, 254, 255);font-size: large;}
+        </style>
+    </head>
+    <body style="background:rgb(217, 208, 253);">
+        <div id="divMenu" style="text-align: right;">
+            <ul>
+                <li>
+                    <a href="https://unica.edu.ni/quienes-somos/">
+                        <i class="fas fa-atom"></i>
+                        Nosotros
+                    </a>
+                </li>
+               
+                <li>
+                    <a href="">
+                        <i class="fas fa-biohazard"></i> Contacto
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <h2 style="display: flex;width: 100%;height: 100%; background: rgb(111, 107, 153)
+    url('../Visualcode/recursos/imagenes/space.jpg') "> 
+      Ama lo que haces.
+    </h2>
+    <div id="divPrincipal" style="display: flex; width: 100%;height: 600px;">
+        <div id="lateral" style="display: inline-block;width: 15%;height: 100%; background-color: rgb(52, 132, 158);">
+           <ul>
+               <li>
+                   <a href="inicioItems.html" target="ifCat" >
+                       <i class="fas fa-rocket"></i>
+                       Inicio de clases 
+                   </a>
+               </li>
+               <li>
+                   <a href="clases.html" target="ifCat">
+                       <i class="fas fa-rocket"></i>
+                     Clases 
+                   </a>
+               </li>
+               <li>
+                   <a href="quienes.html" target="ifCat">
+                       <i class="fas fa-rocket"></i> Quienes somos 
+                   </a>
+               </li>
+                <li>
+                <a href="calendario.html" target="ifCat">
+                    <i class="fas fa-rocket"></i> Calendario  
+                </a>
+            </li>
+           </ul>
+        </div >
+        <div id="contenido" style="display: inline-block;width: 70%;height: 100%;">
+            <!--Contenido principal del documento (esto esta dentro del div "contenido"-->
+           
+            <div id="divMarco">
+                <iframe id="ifCat" name="ifCat" title="Items por Categorias"
+                        src="inicioItems.html" style="border: none" width="93%" height="400px" 
+                        frameborder="0" allowfullscreen ></iframe>
+            </div>
+             <div id="divInferior" style="text-align: center;">
+               <h3 style="margin: 1px;"><i>Nosotros universidad numero contacto </i></h3>
+             </div>
+         
+         
+         
+         </div>
+   
+    </body>
+</html>
